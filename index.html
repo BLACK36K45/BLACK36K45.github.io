@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>💗</title>
+
+<style>
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-family: Arial;
+}
+
+/* شاشة البداية */
+#start {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* الزرار */
+button {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  background: #ffeb3b;
+  cursor: pointer;
+  box-shadow: 0 0 15px #ffeb3b;
+}
+
+/* الكلام الأول */
+.intro {
+  margin: 40px;
+  font-size: 22px;
+  line-height: 1.8;
+  color: #ffeb3b;
+  text-shadow: 0 0 10px #ffeb3b;
+}
+
+/* مسافة */
+.spacer {
+  height: 1200px;
+}
+
+/* القلوب */
+.hearts {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heart-box {
+  margin: 25px 0;
+}
+
+/* النص فوق القلب */
+.top-text {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #ffeb3b;
+}
+
+.heart {
+  font-size: 70px;
+  cursor: pointer;
+}
+
+/* انيميشن */
+.fly {
+  animation: fly 1s forwards;
+}
+
+@keyframes fly {
+  100% {transform: translateY(-200px); opacity: 0;}
+}
+
+.hidden-text {
+  display: none;
+  font-size: 24px;
+}
+
+/* التواريخ */
+.dates {
+  margin-top: 60px;
+  font-size: 28px;
+  color: #ffeb3b;
+}
+
+/* الصور */
+img {
+  margin-top: 40px;
+  max-width: 80%;
+  border-radius: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="start">
+  <button onclick="openSite()">بحبك🙂💗</button>
+</div>
+
+<audio id="song" src="https://files.catbox.moe/is5rph.m4a"></audio>
+
+<div id="content" style="display:none;">
+
+<div class="intro">
+بصي بق ي هانم <br>
+لمي نفسك و ملكيش دعوه ب الاطفال 😒🔪 <br>
+علشان انتي ليا انا و بس 😒🔪 <br>
+بحبك ي مسطحه 😍✨ <br>
+انتي اجمل و احسن حد عرفتو ف حياتي 😍💗 <br>
+و وحشتيني اوي اوي اوي اوي و مش عايزك تبعدي عني تاني خالص منك لله القعده من غيرك وحشه اوي 🥲💗 <br>
+و ابعدي بعيد عن اختك البومه 😒🔪 <br>
+المهم <br>
+ب مناسبه العيد خلص 😂💗 <br>
+كل عيد ونتي عيدي 💗😍 <br>
+كل عيد ونتي مراتي 💗😍 <br>
+كل عيد ونتي بنتي 😍💗 <br>
+و احلا سنتين مع بعض و أنشأ الله مكملين 😍💗 <br>
+و مليكه مراتي التانيه 😍💗
+</div>
+
+<div class="spacer"></div>
+
+<div class="hearts">
+
+<div class="heart-box">
+
+<!-- النص اللي فوق القلب 1 -->
+<div class="top-text">
+خدي الرساله دي عباره عن اسفي اني غلط و حقك عليا + حابب اقولك ي مسطحه ي ام رأسه بخاخه
+</div>
+
+1
+<div onclick="showText(this,'t1')" class="heart">💗</div>
+<div id="t1" class="hidden-text">محبتش</div>
+</div>
+
+<div class="heart-box">
+2
+<div onclick="showText(this,'t2')" class="heart">💗</div>
+<div id="t2" class="hidden-text">ولا هحب</div>
+</div>
+
+<div class="heart-box">
+3
+<div onclick="showText(this,'t3')" class="heart">💗</div>
+<div id="t3" class="hidden-text">حد زيك</div>
+</div>
+
+<div class="heart-box">
+4
+<div onclick="showText(this,'t4')" class="heart">💗</div>
+<div id="t4" class="hidden-text">ف الدنيا</div>
+</div>
+
+</div>
+
+<div class="dates">
+عيد ميلادك 💗 <br>
+2009/7/21 <br><br>
+
+اول يوم اتكلمنا فيه 💗 <br>
+2024/2/18
+</div>
+
+<!-- الصور + الجملة تحت كل صورة -->
+<img src="https://files.catbox.moe/mtb4yx.jpg">
+<div style="margin-top:5px; color:#ffeb3b; font-size:20px;">
+بحبك ي ام راس بخاخه🙂💗
+</div>
+
+<img src="https://files.catbox.moe/5r1tc6.jpg">
+<div style="margin-top:5px; color:#ffeb3b; font-size:20px;">
+بحبك ي ام راس بخاخه🙂💗
+</div>
+
+<img src="https://files.catbox.moe/0d32bm.jpg">
+<div style="margin-top:5px; color:#ffeb3b; font-size:20px;">
+بحبك ي ام راس بخاخه🙂💗
+</div>
+
+<img src="https://files.catbox.moe/v9mghh.jpg">
+<div style="margin-top:5px; color:#ffeb3b; font-size:20px;">
+بحبك ي ام راس بخاخه 🙂💗
+</div>
+
+<div style="margin-top:20px; color:#ffeb3b; font-size:22px;">
+بحبك 💗🙂
+</div>
+
+</div>
+
+<script>
+function openSite() {
+  document.getElementById("start").style.display = "none";
+  document.getElementById("content").style.display = "block";
+  document.getElementById("song").play().catch(()=>{});
+}
+
+function showText(el,id){
+  el.classList.add("fly");
+  document.getElementById(id).style.display="block";
+}
+</script>
+
+</body>
+</html>
